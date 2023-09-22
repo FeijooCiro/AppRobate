@@ -1,5 +1,6 @@
 package com.mardelapps.apprueba.AppRobate
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -15,7 +16,13 @@ class AppRobateActivity : AppCompatActivity() {
         val Mandi = findViewById<AppCompatEditText>(R.id.Mandingas)
 
         Rogelio.setOnClickListener {
-            Log.i("Malañaz", "Esto es lo que pusiste: ${Mandi.text.toString()}")
+            val name = Mandi.text.toString()
+
+            if(name.isNotEmpty()){
+                val intent = Intent(this, ResultActivity::class.java)
+                intent.putExtra("EXTRA_NAME", name)
+                startActivity(intent)
+            }
         }
     }
 }
