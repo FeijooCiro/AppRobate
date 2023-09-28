@@ -13,4 +13,12 @@
     <color name="background_app">#0E0020</color>
     <color name="background_button">#EB1555</color>
     <color name="title_text">#FF8D8E98</color>
+    <color name="background_fab">#FF6200EE</color>
+
+
+    <!-- Color IMC -->
+    <color name="low_weight">#29388F</color>
+    <color name="normal_weight">#5CB660</color>
+    <color name="high_weight">#E64D42</color>
+    <color name="obesity_weight">#EA0000</color>
 </resources>
