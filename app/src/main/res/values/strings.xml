@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Apprueba</string>
+
+    <!-- IMC calculation -->
     <string name="Example">Esto es un ejemplo</string>
     <string name="Female">Mujer</string>
     <string name="Man">Hombre</string>
@@ -9,9 +11,6 @@
     <string name="Calculate">Calcular</string>
     <string name="Result">Resultado</string>
     <string name="Recalculate">Volver</string>
-
-
-    <!-- IMC calculation -->
 
     <string name="error">Error</string>
 
@@ -26,5 +25,15 @@
 
     <string name="title_obesity">Obesidad</string>
     <string name="description_obesity">Usted tiene exceso de peso.</string>
+    <string name="saludapp">SaludApp</string>
+    <string name="imc_app">IMC App</string>
+
+
+    <!--TODO App-->
+
+    <string name="todo">TODO App</string>
+    <string name="ToDo_Title">To Do.</string>
+    <string name="ToDo_Categories">Categorías.</string>
+    <string name="ToDo_Tasks">Tareas</string>
 
 </resources>

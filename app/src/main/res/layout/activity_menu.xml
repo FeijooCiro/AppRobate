@@ -12,14 +12,21 @@
         android:id="@+id/SaludApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SaludApp"
+        android:text="@string/saludapp"
         />
 
     <Button
         android:id="@+id/IMCapp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IMC App"
+        android:text="@string/imc_app"
+        />
+
+    <Button
+        android:id="@+id/TODO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo"
         />
 
 </LinearLayout>

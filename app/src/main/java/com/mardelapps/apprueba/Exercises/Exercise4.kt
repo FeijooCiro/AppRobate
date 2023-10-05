@@ -9,20 +9,21 @@ class Song{
     private var reproducciones:Number = 304
 
     fun popularidad(reproduc:Number): String {
-        reproduc = this.reproducciones
+        /*reproduc = this.reproducciones
         if(reproduc < 1000){
             return " poco popular."
         } else {
             return " popular."
-        }
+        }*/
+        return "a";
     }
 
     fun mostrarDatos(){
-        println("$titulo, interpretada por $nombreArtista, lanzada en $anioPublicacion. Fue ${popularidad()}")
+        //println("$titulo, interpretada por $nombreArtista, lanzada en $anioPublicacion. Fue ${popularidad()}")
     }
 }
 
 fun main(){
-    val cancion = Song()
-    cancion.mostrarDatos()
+    //val cancion = Song()
+    //cancion.mostrarDatos()
 }
