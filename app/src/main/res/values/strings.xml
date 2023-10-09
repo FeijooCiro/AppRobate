@@ -35,5 +35,10 @@
     <string name="ToDo_Title">To Do.</string>
     <string name="ToDo_Categories">Categorías.</string>
     <string name="ToDo_Tasks">Tareas</string>
+    <string name="ToDo_dialog_add_task">Añade la tarea</string>
+    <string name="ToDo_dialog_category_business">Negocios</string>
+    <string name="ToDo_dialog_category_personal">Personal</string>
+    <string name="ToDo_dialog_category_other">Otros</string>
+    <string name="ToDo_dialog_add_task_button">Crear tarea</string>
 
 </resources>
