@@ -46,4 +46,13 @@
 
     <string name="superhero">SuperHero App</string>
 
+
+    <!--Settings-->
+
+    <string name="settings">Settings</string>
+    <string name="dark_mode_title">Modo oscuro</string>
+    <string name="dark_mode_description">Activación del modo oscuro para un cambio visual</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_description">Activación de bluetooth para conectarte con otros dispositivos</string>
+
 </resources>
