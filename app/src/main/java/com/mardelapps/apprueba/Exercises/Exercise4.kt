@@ -5,25 +5,23 @@ import com.mardelapps.apprueba.Exercises.Song as Song
 class Song{
     private var titulo:String = "man"
     private var nombreArtista:String = "Roberto"
-    private var anioPublicacion:Number = 1945
-    private var reproducciones:Number = 304
+    private var anioPublicacion:Int = 1945
+    private var reproducciones:Int = 304
 
-    fun popularidad(reproduc:Number): String {
-        /*reproduc = this.reproducciones
-        if(reproduc < 1000){
+    fun popularidad(): String {
+        if(this.reproducciones < 1000){
             return " poco popular."
         } else {
             return " popular."
-        }*/
-        return "a";
+        }
     }
 
     fun mostrarDatos(){
-        //println("$titulo, interpretada por $nombreArtista, lanzada en $anioPublicacion. Fue ${popularidad()}")
+        println("$titulo, interpretada por $nombreArtista, lanzada en $anioPublicacion. Fue ${popularidad()}")
     }
 }
 
 fun main(){
-    //val cancion = Song()
-    //cancion.mostrarDatos()
+    val cancion = Song()
+    cancion.mostrarDatos()
 }

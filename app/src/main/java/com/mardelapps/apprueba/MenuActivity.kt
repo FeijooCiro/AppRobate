@@ -7,6 +7,7 @@ import android.widget.Button
 import com.mardelapps.apprueba.AppRobate.AppRobateActivity
 import com.mardelapps.apprueba.todoapp.TodoActivity
 import com.mardelapps.apprueba.imccalculator.imcCalculatorActivity
+import com.mardelapps.apprueba.superheroapp.SuperHeroListActivity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,10 +17,12 @@ class MenuActivity : AppCompatActivity() {
         val SaludApp = findViewById<Button>(R.id.SaludApp)
         val IMCapp = findViewById<Button>(R.id.IMCapp)
         val TODO = findViewById<Button>(R.id.TODO)
+        val SuperHero = findViewById<Button>(R.id.SuperHero)
 
         SaludApp.setOnClickListener { navigateToSaludApp() }
         IMCapp.setOnClickListener { navigateToIMCapp() }
         TODO.setOnClickListener { navigateToTodoApp() }
+        SuperHero.setOnClickListener { navigateToSuperHeroApp() }
     }
     private fun navigateToSaludApp(){
         val intent = Intent(this, AppRobateActivity::class.java)
@@ -33,6 +36,11 @@ class MenuActivity : AppCompatActivity() {
 
     private fun navigateToTodoApp(){
         val intent = Intent(this, TodoActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navigateToSuperHeroApp(){
+        val intent = Intent(this, SuperHeroListActivity::class.java)
         startActivity(intent)
     }
 }
