@@ -54,5 +54,7 @@
     <string name="dark_mode_description">Activación del modo oscuro para un cambio visual</string>
     <string name="bluetooth_title">Bluetooth</string>
     <string name="bluetooth_description">Activación de bluetooth para conectarte con otros dispositivos</string>
+    <string name="volume_title">Volumen</string>
+    <string name="vibration_title">Vibrar en las llamadas</string>
 
 </resources>
